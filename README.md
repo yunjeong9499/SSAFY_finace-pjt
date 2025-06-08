@@ -70,24 +70,6 @@
 
 ---
 
-## 🏗️ 프로젝트 구조
-final-pjt/
-├── final-pjt-front/          # Vue.js 프론트엔드
-│   ├── src/
-│   │   ├── components/
-│   │   ├── views/
-│   │   ├── router/
-│   │   └── store/
-│   └── package.json
-├── final_pjt_back/           # Django 백엔드
-│   ├── accounts/
-│   ├── deposits/
-│   ├── stocks/
-│   ├── community/
-│   ├── chatbot/
-│   └── requirements.txt
-└── README.md
-
 ## 🗃️ ERD (Entity Relationship Diagram)
 - Users (커스텀 유저 모델: 이름, 이메일, 프로필 이미지, 가입상품목록)
 - Deposits, Savings (예적금 금융 상품 + 옵션 테이블)
